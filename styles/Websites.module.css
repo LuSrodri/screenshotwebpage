@@ -1,0 +1,139 @@
+.main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px #00000050;
+  padding: 50px;
+  margin: 30px;
+  max-width: 90vw;
+}
+
+.main h1,
+.main h2,
+.main h3 {
+  text-align: center;
+  align-self: center;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.colorPalette {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputDiv,
+.infosDiv,
+.infosDiv2 {
+  min-height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.main hr {
+  width: 95%;
+}
+
+@media (max-width: 1400px) {
+
+  .inputDiv,
+  .infosDiv,
+  .infosDiv2 {
+    min-height: unset;
+    width: unset;
+  }
+}
+
+#img,
+#loading {
+  max-height: 400px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+#img {
+  box-shadow: 1px 1px 7px #00000050;
+}
+
+.colors {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  border-radius: 10px;
+  font-weight: 300;
+  box-shadow: 1px 1px 7px #00000050;
+}
+
+.color div {
+  width: 100%;
+  height: 50%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.color div p {
+  align-self: unset;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.color p {
+  align-self: flex-start;
+  margin: 2px;
+  margin-left: 5px;
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  font-size: 0.8rem;
+}
+
+.colorPalette input {
+  width: 90%;
+  border: none;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 7px #00000050;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
+.infosDiv2,
+.infosDiv2 * {
+  user-select: text !important;
+  max-width: 70vw;
+}
+
+.infosDiv2 strong {
+  overflow-wrap: break-word;
+}
