@@ -8,7 +8,7 @@ config.autoAddCss = false
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLLQZGP1" />
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLLQZGP1" />
       <Script id="gtag">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
 
           gtag('config', 'G-ZXNLLQZGP1');
         `}
-      </Script>
+      </Script> */}
       <Component {...pageProps} />
     </>
   )
