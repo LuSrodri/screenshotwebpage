@@ -21,3 +21,13 @@ a:hover {
   text-decoration: none;
   color: #000;
 }
+
+pre {
+  background-color: #999999;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0;
+  word-break: break-word;
+  text-wrap: wrap;
+}

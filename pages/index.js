@@ -8,18 +8,18 @@ export default function WebsiteScreenshot() {
   return (
     <>
       <Head>
-        <title>Capture a Website Screenshot - Screenshot Webpage</title>
+        <title>API and Tool to Capture a Website Screenshot - Powerful, Rapid, Reliable and Free! - Screenshot Webpage</title>
 
-        <meta name="description" content="Get the Website screenshot easily, that a powerful tool to make any web screenshots online for free with no limits." />
+        <meta name="description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable." />
 
         <meta property="og:title" content="Capture a Website Screenshot - Screenshot Webpage" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Get the Website screenshot easily, that a powerful tool to make any web screenshots online for free with no limits." />
+        <meta property="og:description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable." />
         <meta property="og:url" content="https://screenshotwebpage.com/" />
         <meta property="og:image" content="https://screenshotwebpage.com/imagesinfos-logo.png" />
 
         <meta name="twitter:title" content="Capture a Website Screenshot - Screenshot Webpage" />
-        <meta name="twitter:description" content="Get the Website screenshot easily, that a powerful tool to make any web screenshots online for free with no limits." />
+        <meta name="twitter:description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable." />
         <meta name="twitter:image" content="https://screenshotwebpage.com/imagesinfos-logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
