@@ -28,8 +28,12 @@
 
 .main .startP,
 .main .startP * {
-  text-align: start;
+  text-align: justify;
   align-self: flex-start;
+}
+
+.main .startP strong {
+  word-break: break-word;
 }
 
 .main p a {

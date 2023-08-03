@@ -1,5 +1,5 @@
 import styles from '@/styles/Websites.module.css'
-import { faCode, faDownload, faNewspaper, faScrewdriverWrench, faToolbox } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faDownload, faScrewdriverWrench, faToolbox } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import InputURLForScreenshot from './InputURLForScreenshot'
 
@@ -68,9 +68,7 @@ export default function WebsitesScreenshot() {
                 In JS (Axios Library): 
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>axios.get(&apos;https://api.screenshotwebpage.com/capture/:encodedURL&apos;)</pre>
-            <p className={styles.startP}>
-                <FontAwesomeIcon icon={faNewspaper} /> In soon more code snippets...
-            </p>
+            <hr></hr>
         </main>
     )
 }
