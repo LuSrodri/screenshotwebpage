@@ -1,14 +1,15 @@
 import styles from '@/styles/Websites.module.css'
-import { faCode, faDownload, faScrewdriverWrench, faToolbox } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faDownload, faHandHoldingDollar, faScrewdriverWrench, faStar, faToolbox } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import InputURLForScreenshot from './InputURLForScreenshot'
 
 export default function WebsitesScreenshot() {
     return (
         <main className={styles.main}>
-            <h1><FontAwesomeIcon icon={faToolbox} /> Get use the tool</h1>
+            <h1><FontAwesomeIcon icon={faStar} /> API and Tool to Capture a Website Screenshot - Powerful, Rapid, Reliable and Free! <FontAwesomeIcon icon={faStar} /></h1>
             <hr></hr>
             <InputURLForScreenshot></InputURLForScreenshot>
+
 
             <h1><FontAwesomeIcon icon={faScrewdriverWrench} /> How to use the API?</h1>
             <hr></hr>
@@ -53,21 +54,40 @@ export default function WebsitesScreenshot() {
             <h1><FontAwesomeIcon icon={faCode} /> Some code snippets</h1>
             <hr></hr>
             <p className={styles.startP}>
-                In HTML (IMG tag): 
+                In HTML (IMG tag):
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>&lt;img src=&quot;https://api.screenshotwebpage.com/capture/:encodedURL&quot; alt=&quot;Capture of a Website&quot;&gt;</pre>
             <p className={styles.startP}>
-                In HTML (A tag): 
+                In HTML (A tag):
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>&lt;a href=&quot;https://api.screenshotwebpage.com/capture/:encodedURL&quot; /a&gt;</pre>
             <p className={styles.startP}>
-                In JS (Fetch API): 
+                In JS (Fetch API):
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>fetch(&apos;https://api.screenshotwebpage.com/capture/:encodedURL&apos;)</pre>
             <p className={styles.startP}>
-                In JS (Axios Library): 
+                In JS (Axios Library):
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>axios.get(&apos;https://api.screenshotwebpage.com/capture/:encodedURL&apos;)</pre>
+
+            <h1><FontAwesomeIcon icon={faHandHoldingDollar} /> Do you want help?</h1>
+            <hr></hr>
+            <p className={styles.startP}>
+                We provide a free and highly effective service for capturing websites, allowing users to easily take screenshots and preserve web pages.
+                However, maintaining this service comes with significant operational costs.
+                To ensure its continuation, we kindly ask for your contribution through a donation.
+                Your support will go a long way in keeping this service available for everyone.
+                Please consider making a donation to help us sustain and improve our platform. Thank you for your generosity!
+            </p>
+            <script async
+                src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+
+            <stripe-buy-button
+                buy-button-id="buy_btn_1NctJpCDEfie1SEOJupHXqQq"
+                publishable-key="pk_live_51Nct5UCDEfie1SEOwbGjl9O6ELU1FKRu44APYak2y7UgwMhLrTfoNUe5HPEdKCwEhelMd8EPmCwsypUodz4Uxfei00XKFBVxuo"
+            >
+            </stripe-buy-button>
             <hr></hr>
         </main>
     )

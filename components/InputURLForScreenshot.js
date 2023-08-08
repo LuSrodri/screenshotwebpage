@@ -52,7 +52,7 @@ export default function InputURLForScreenshot() {
     return (
         <div className={styles.screenshot}>
             <div className={styles.inputDiv}>
-                <h2><FontAwesomeIcon icon={faInfoCircle} /> Capture the webpage</h2>
+                <h2><FontAwesomeIcon icon={faInfoCircle} /> Let&apos;s start capture webpages!</h2>
                 <img src='' id='captureWebpage' />
                 <Link target='_blank' href={downloadLink}>Download <FontAwesomeIcon icon={faDownload} /></Link>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
