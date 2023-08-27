@@ -9,7 +9,7 @@
   padding: 50px;
   margin: 30px;
   width: 90vw;
-  max-width: 1500px;
+  max-width: 1000px;
 }
 
 .main h1,
@@ -152,4 +152,15 @@
 
 .inputDiv h2 {
   margin: 15px !important;
+}
+
+div.article,
+div.article * {
+  text-align: justify;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+div.article {
+  width: 100%;
 }

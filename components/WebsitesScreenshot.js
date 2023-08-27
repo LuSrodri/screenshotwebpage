@@ -1,7 +1,8 @@
 import styles from '@/styles/Websites.module.css'
-import { faCode, faDownload, faHandHoldingDollar, faScrewdriverWrench, faStar, faToolbox } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare, faCode, faDownload, faHandHoldingDollar, faQuestion, faScrewdriverWrench, faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import InputURLForScreenshot from './InputURLForScreenshot'
+import Link from 'next/link'
 
 export default function WebsitesScreenshot() {
     return (
@@ -69,6 +70,29 @@ export default function WebsitesScreenshot() {
                 In JS (Axios Library):
             </p>
             <pre style={{ alignSelf: 'flex-start' }}>axios.get(&apos;https://api.screenshotwebpage.com/capture/:encodedURL&apos;)</pre>
+
+            <h1><FontAwesomeIcon icon={faQuestion} /> Tutorial</h1>
+            <hr></hr>
+
+            <Link href={"./tutorial/how-use-atag-get-webpage-screenshot"}>
+                <h3>How to use A tag to get a Webpage Screenshot? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h3>
+                <p>As an increasingly visual medium, the internet relies heavily on captivating images. When it comes to sharing website screenshots, one way to accomplish this is by leveraging the A-tag, an HTML anchor tag.</p>
+            </Link>
+
+            <Link href={"./tutorial/how-use-axios-get-webpage-screenshot"}>
+                <h3>How to use Axios to get a Webpage Screenshot? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h3>
+                <p>In today&apos;s digital landscape, visuals play a crucial role in capturing users&apos; attention. Webpage screenshots are an effective way to showcase the content and design of a website...</p>
+            </Link>
+
+            <Link href={"./tutorial/how-use-fetch-get-webpage-screenshot"}>
+                <h3>How to use Fetch API to get a Webpage Screenshot? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h3>
+                <p>Webpage screenshots are powerful visual assets that can enhance user experience and aid in communication. In this tutorial, we will explore how to utilize the Fetch API, a built-in JavaScript method, to obtain webpage screenshots...</p>
+            </Link>
+
+            <Link href={"./tutorial/how-use-imgtag-get-webpage-screenshot"}>
+                <h3>How to use IMG tag to get a Webpage Screenshot? <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h3>
+                <p>The IMG tag is a fundamental element in HTML used primarily for displaying images on webpages. However, by thinking creatively, we can employ the IMG tag to retrieve and showcase webpage screenshots...</p>
+            </Link>
 
             <h1><FontAwesomeIcon icon={faHandHoldingDollar} /> Do you want help?</h1>
             <hr></hr>
