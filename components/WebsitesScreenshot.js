@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function WebsitesScreenshot() {
     return (
         <main className={styles.main}>
-            <h1><FontAwesomeIcon icon={faStar} /> API and Tool to Capture a Website Screenshot - Powerful, Rapid, Reliable and Free! <FontAwesomeIcon icon={faStar} /></h1>
+            <h1>Hey DEVS, improve your portfolios and get automatically pictures of your websites and projects!</h1>
             <hr></hr>
             <InputURLForScreenshot></InputURLForScreenshot>
 

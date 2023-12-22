@@ -8,18 +8,18 @@ export default function WebsiteScreenshot() {
   return (
     <>
       <Head>
-        <title>Website Screenshot - Powerful, Rapid, Reliable and Free!</title>
+        <title>Hey DEVS, improve your portfolios and get automatically pictures of your websites and projects with Screenshot Webpage!</title>
 
-        <meta name="description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable. With non login needed." />
+        <meta name="description" content="The most powerful, free and easilly Tool and API to get capture of websites automatically and Code-Driven. Try now and get web screenshots online and with no limits, rapid and reliable and with non auth needed." />
 
-        <meta property="og:title" content="Website Screenshot - Powerful, Rapid, Reliable and Free!" />
+        <meta property="og:title" content="Hey DEVS, improve your portfolios and get automatically pictures of your websites and projects with Screenshot Webpage!" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable. With non login needed." />
+        <meta property="og:description" content="The most powerful, free and easilly Tool and API to get capture of websites automatically and Code-Driven. Try now and get web screenshots online and with no limits, rapid and reliable and with non auth needed." />
         <meta property="og:url" content="https://screenshotwebpage.com/" />
         <meta property="og:image" content="https://screenshotwebpage.com/imagesinfos-logo.png" />
 
-        <meta name="twitter:title" content="Website Screenshot - Powerful, Rapid, Reliable and Free!" />
-        <meta name="twitter:description" content="The most powerful and free Tool and API to get capture of websites. Try now and get web screenshots online and with no limits. Rapid and reliable. With non login needed." />
+        <meta name="twitter:title" content="Hey DEVS, improve your portfolios and get automatically pictures of your websites and projects with Screenshot Webpage!" />
+        <meta name="twitter:description" content="The most powerful, free and easilly Tool and API to get capture of websites automatically and Code-Driven. Try now and get web screenshots online and with no limits, rapid and reliable and with non auth needed." />
         <meta name="twitter:image" content="https://screenshotwebpage.com/imagesinfos-logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
 

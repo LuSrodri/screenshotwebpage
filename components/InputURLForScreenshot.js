@@ -1,5 +1,5 @@
 import styles from '@/styles/Websites.module.css'
-import { faDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare, faDownload, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -8,6 +8,7 @@ export default function InputURLForScreenshot() {
 
     const [URLOfCapture, setURLOfCapture] = useState("");
     const [downloadLink, setDownloadLink] = useState("");
+    const [openLink, setOpenLink] = useState("");
     const [isFullPage, setIsFullPage] = useState(false);
 
     useEffect(() => {
@@ -46,6 +47,7 @@ export default function InputURLForScreenshot() {
         }
 
         setDownloadLink('https://api.screenshotwebpage.com/capture/' + encodeURIComponent(url) + '?fullpage=' + isFullPage + '&download=true');
+        setOpenLink('https://api.screenshotwebpage.com/capture/' + encodeURIComponent(url) + '?fullpage=' + isFullPage);
         imageElement.src = 'https://api.screenshotwebpage.com/capture/' + encodeURIComponent(url) + '?fullpage=' + isFullPage;
     }
 
@@ -53,8 +55,9 @@ export default function InputURLForScreenshot() {
         <div className={styles.screenshot}>
             <div className={styles.inputDiv}>
                 <h2><FontAwesomeIcon icon={faInfoCircle} /> Let&apos;s start capture webpages!</h2>
-                <img src='' id='captureWebpage' />
+                <img src='./screenshot-will-show.png' id='captureWebpage' />
                 <Link target='_blank' href={downloadLink}>Download <FontAwesomeIcon icon={faDownload} /></Link>
+                <Link target='_blank' href={openLink}>Open Image <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
                     <input id={"inputURL"} type="url" placeholder={"Insert an URL"} onKeyDown={onEnter} onChange={onChange} />
                     <label><input type='checkbox' onInput={(e) => setIsFullPage(e.target.checked)}></input> FullPage</label>
